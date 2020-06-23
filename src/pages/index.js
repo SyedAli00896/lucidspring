@@ -1,7 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import { Container, Row, Col } from "react-bootstrap"
 import Header from "../components/header"
+import { Services } from "../components/Services"
 import SEO from "../components/seo"
 import "../Styles/styles.css"
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -51,6 +52,28 @@ const IndexPage = () => (
         to any situation.
       </p>
     </div>
+    <Container>
+      <Row>
+        <Services
+          backgroundColor="#fcdbe2"
+          src={require("../images/mobile_apps.png")}
+          title="Mobile Apps"
+          description="The simplest and most effective designs and architecture to expand your business"
+        />
+        <Services
+          backgroundColor="#e2f9d8"
+          src={require("../images/web_design_dev.png")}
+          title="Web Apps"
+          description="Functional, effective and practical web apps and websites that communicate your products and services"
+        />
+        <Services
+          backgroundColor="#e7d4ff"
+          src={require("../images/software_red.png")}
+          title="Software Redevelopment"
+          description="Enhance, refine and redesign for effective business use"
+        />
+      </Row>
+    </Container>
     <SEO title="Home" />
   </div>
 )
