@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { Link } from "gatsby"
 
 import "../Styles/styles.css"
+import { ORANGE_COLOUR } from "../Constants"
 class Header extends Component {
   render() {
     return (
@@ -9,7 +10,7 @@ class Header extends Component {
         class="navbar navbar-expand-lg navbar-collapse "
         style={{
           flexDirection: "row",
-          backgroundColor: "darkorange",
+          backgroundColor: ORANGE_COLOUR,
         }}
       >
         <div
@@ -23,8 +24,8 @@ class Header extends Component {
             <a class="navbar-brand" href="#">
               <img
                 src={require("../images/shrine_horizontal_white.png")}
-                width="156"
-                height="61"
+                width="146"
+                height="51"
                 alt="Shrine"
               />
             </a>
