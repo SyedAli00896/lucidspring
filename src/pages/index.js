@@ -28,7 +28,7 @@ const IndexPage = () => (
       class="jumbotron jumbotron-fluid"
       style={{ backgroundColor: "#ffe7d1" }}
     >
-      <div class=" servicesContainer">
+      <div class="row servicesContainer">
         <div>
           <h1 id="heading">Our Services</h1>
           <p>Custom solutions for businesses that need to move fast.</p>

@@ -1,76 +1,52 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-
+import { Navbar, Nav, NavDropdown } from "react-bootstrap"
 import "../Styles/styles.css"
 import { ORANGE_COLOUR } from "../Constants"
 class Header extends Component {
   render() {
     return (
-      <nav
-        class="navbar navbar-expand-lg navbar-collapse "
-        style={{
-          flexDirection: "row",
-          backgroundColor: ORANGE_COLOUR,
-        }}
-      >
-        <div
-          class="container"
+      <>
+        <Navbar
           style={{
-            display: "flex",
-            flexDirection: "row",
+            backgroundColor: ORANGE_COLOUR,
           }}
+          collapseOnSelect
+          expand="lg"
         >
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">
+          <div className="container">
+            <Navbar.Brand href="#home">
               <img
+                style={{ marginTop: 10 }}
                 src={require("../images/shrine_horizontal_white.png")}
-                width="146"
-                height="51"
                 alt="Shrine"
+                height="50"
               />
-            </a>
-          </div>
-
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <Link>
-                <a href="./" id="anchor">
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="mr-auto"></Nav>
+              <Nav>
+                <Nav.Link id="anchor" href="#deets">
                   Services
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link>
-                <a id="anchor" href="./">
+                </Nav.Link>
+                <Nav.Link id="anchor" href="#deets">
                   Portfolio
-                </a>
-              </Link>
-            </li>
-
-            <li>
-              <Link>
-                <a id="anchor" href="./">
+                </Nav.Link>
+                <Nav.Link id="anchor" href="#deets">
                   About
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link>
-                <a id="anchor" href="./">
+                </Nav.Link>
+                <Nav.Link id="anchor" href="#deets">
                   Insights
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link>
-                <a id="contact" href="./">
+                </Nav.Link>
+                <Nav.Link id="contact" eventKey={2} href="#memes">
                   Contact
-                </a>
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
+                </Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </div>
+        </Navbar>
+      </>
     )
   }
 }

@@ -37,4 +37,16 @@
 
 p {
   font-size: 1.1em;
+  text-align: center;
+}
+
+.toolbar {
+  position: fixed;
+  width: 100%;
+  background: "blue";
+  height: 56px;
+  top: 0;
+}
+img {
+  object-fit: contain;
 }
