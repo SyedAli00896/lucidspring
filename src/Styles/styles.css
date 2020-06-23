@@ -1,0 +1,22 @@
+#anchor {
+  color: white;
+  padding: 0px 15px;
+  font-size: 22px;
+}
+#anchor:hover {
+  text-decoration: none;
+  padding-bottom: 10px;
+  border-bottom: 3px solid white;
+}
+
+#contact {
+  font-size: 22px;
+  background-color: white;
+  color: darkorange;
+  margin-left: 10px;
+  padding: 4px 15px;
+  border-radius: 10px 0px;
+}
+#contact:hover {
+  text-decoration: none;
+}
