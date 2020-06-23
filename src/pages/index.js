@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { Container, Row, Col } from "react-bootstrap"
 import Header from "../components/header"
 import { Services } from "../components/Services"
+import { Newsletter } from "../components/Newsletter"
 import SEO from "../components/seo"
 import "../Styles/styles.css"
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -74,6 +75,8 @@ const IndexPage = () => (
         />
       </Row>
     </Container>
+    <Newsletter />
+    <div style={{ padding: 30 }}></div>
     <SEO title="Home" />
   </div>
 )

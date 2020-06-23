@@ -12,8 +12,8 @@ export const Services = props => {
           <img {...props} className="serviceImage" height="100" alt="No File" />
         </div>
         <div>
-          <h4 id="cardtitle">{props.title}</h4>
-          <p id="carddescription">{props.description}</p>
+          <h2 id="cardtitle">{props.title}</h2>
+          <h2 id="carddescription">{props.description}</h2>
         </div>
       </div>
     </Col>
