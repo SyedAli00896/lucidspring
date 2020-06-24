@@ -16,14 +16,16 @@ class Header extends Component {
           viewBox="0 0 1440 320"
         >
           <path
-            fill={ORANGE_COLOUR}
+            fill={this.props.homePage ? "transparent" : ORANGE_COLOUR}
             fill-opacity="1"
             d="M0,192L120,202.7C240,213,480,235,720,224C960,213,1200,171,1320,149.3L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
           ></path>
         </svg>
         <Navbar
           style={{
-            backgroundColor: ORANGE_COLOUR,
+            backgroundColor: this.props.homePage
+              ? "transparent"
+              : ORANGE_COLOUR,
           }}
           collapseOnSelect
           expand="lg"
@@ -42,19 +44,34 @@ class Header extends Component {
             <Navbar.Collapse id="responsive-navbar-nav ">
               <Nav className="mr-auto"></Nav>
               <Nav>
-                <Nav.Link id="anchor" href="services">
+                <Nav.Link
+                  id={this.props.homePage ? "anchorHome" : "anchor"}
+                  href="services"
+                >
                   Services
                 </Nav.Link>
-                <Nav.Link id="anchor" href="/portfolio">
+                <Nav.Link
+                  id={this.props.homePage ? "anchorHome" : "anchor"}
+                  href="/portfolio"
+                >
                   Portfolio
                 </Nav.Link>
-                <Nav.Link id="anchor" href="/about">
+                <Nav.Link
+                  id={this.props.homePage ? "anchorHome" : "anchor"}
+                  href="/about"
+                >
                   About
                 </Nav.Link>
-                <Nav.Link id="anchor" href="insights">
+                <Nav.Link
+                  id={this.props.homePage ? "anchorHome" : "anchor"}
+                  href="insights"
+                >
                   Insights
                 </Nav.Link>
-                <Nav.Link id="contact" href="#memes">
+                <Nav.Link
+                  id={this.props.homePage ? "contactHome" : "contact"}
+                  href="#memes"
+                >
                   Contact
                 </Nav.Link>
               </Nav>

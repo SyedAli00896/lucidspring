@@ -12,13 +12,8 @@ class Jumbotron extends Component {
               <h1 id="heading">{this.props.title || "Our Services"}</h1>
               <p>{this.props.description}</p>
             </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <img
-                src={this.props.image}
-                width="506"
-                height="251"
-                alt="Shrine"
-              />
+            <Col style={{ textAlign: "center" }} lg={6} md={6} sm={12} xs={12}>
+              <img src={this.props.image} height="251" alt="Shrine" />
             </Col>
           </Row>
         </Container>
