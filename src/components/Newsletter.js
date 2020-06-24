@@ -1,12 +1,5 @@
 import React from "react"
-import {
-  Form,
-  Row,
-  Col,
-  InputGroup,
-  Button,
-  FormControl,
-} from "react-bootstrap"
+import { Form, Row, Col, Button } from "react-bootstrap"
 import "../Styles/styles.css"
 import { LIGHT_ORANGE_COLOUR } from "../Constants"
 export const Newsletter = props => {

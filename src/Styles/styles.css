@@ -10,6 +10,8 @@
 }
 
 #contact {
+  width: 50%;
+  border-width: 0;
   font-size: 22px;
   background-color: white;
   color: #ff7a00;
@@ -101,4 +103,44 @@ img {
   color: #ffffff;
   padding: 4px 15px;
   border-radius: 10px 0px;
+}
+#rowItems {
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 750px) {
+  #collapse_navbar {
+    color: black;
+    font-size: 22px;
+  }
+  #collapse_navbar:hover {
+    text-decoration: none;
+  }
+  #colItems {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #collapse_navbar {
+    color: black;
+    font-size: 22px;
+  }
+  #collapse_navbar:hover {
+    text-decoration: none;
+  }
+  #colItems {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 340px) {
+  #collapse_navbar {
+    color: black;
+    font-size: 22px;
+  }
+  #collapse_navbar:hover {
+    text-decoration: none;
+  }
+  #colItems {
+    text-align: center;
+  }
 }

@@ -1,0 +1,93 @@
+/* REMOVE THIS, USE YOUR OWN  */
+html,
+
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #ffffff;
+}
+img {
+  margin: 0px 0px 20px 5px;
+}
+.col1 {
+  color: #000000;
+  border: 2px solid green;
+}
+#sectionName {
+  color: #000000;
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 600;
+}
+
+#routes {
+  display: block;
+  color: #ff7a00;
+  font-size: 19px;
+  font-weight: 400;
+  /* line-height: 32px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  /* padding: 5px 0px 5px 0px; */
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+}
+
+#routes:hover {
+  text-decoration: none;
+  color: #ff4f00;
+}
+#socialicons {
+  display: inline;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@media only screen and (max-width: 950px) {
+  #sectionName {
+    font-size: 22px;
+  }
+  #routes {
+    font-size: 18px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  #social {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #sectionName {
+    font-size: 20px;
+  }
+  #routes {
+    font-size: 17px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  #social {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 340px) {
+  #sectionName {
+    font-size: 17px;
+  }
+  #routes {
+    font-size: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #social {
+    text-align: center;
+  }
+}
