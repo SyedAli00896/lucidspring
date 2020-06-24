@@ -1,3 +1,5 @@
+/* short-hand syntax: top | right | bottom | left */
+
 #anchor {
   color: white;
   padding: 0px 15px;
@@ -52,6 +54,24 @@ p {
 
 .serviceImage {
   margin: 50px 60px;
+}
+#portfolio_col {
+  border-radius: 50px 0px;
+  padding: 10px 15px 0px 0px;
+  color: #ffffff;
+}
+.portfolioImage {
+  margin: 50px 0px 0px 0px;
+}
+#pfcardtitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+#pfcarddescription {
+  font-size: 20px;
+  line-height: 21px;
+  text-align: left;
+  font-weight: 200;
 }
 #cardtitle {
   padding: 10px 15px;
