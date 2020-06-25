@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { Container, Col, Row, Button } from "react-bootstrap"
 import { Link } from "gatsby"
 import "../Styles/footerStyles.css"
+import { SocialIcons } from "./socialIcons"
 
 export const Footer = props => {
   return (
@@ -47,36 +48,7 @@ export const Footer = props => {
 
           <Col class="col" id="social" lg={3} md={3} sm="12" xs={12}>
             <h1 id="sectionName">Get in touch</h1>
-            <Link to="/">
-              <a>
-                <img src="https://svgshare.com/i/5eA.svg" width="32" />
-              </a>
-            </Link>
-            <Link to="/">
-              <a>
-                <img src="https://svgshare.com/i/5fq.svg" width="32" />
-              </a>
-            </Link>
-            <Link to="/">
-              <a>
-                <img src="https://svgshare.com/i/5eA.svg" width="32" />
-              </a>
-            </Link>
-            <Link to="/">
-              <a>
-                <img src="https://svgshare.com/i/5eA.svg" width="32" />
-              </a>
-            </Link>
-            <Link to="/">
-              <a>
-                <img src="https://svgshare.com/i/5eA.svg" width="32" />
-              </a>
-            </Link>
-            <Link to="https://www.linkedin.com/company/shrine-development/">
-              <a>
-                <img src="https://svgshare.com/i/5eA.svg" width="32" />
-              </a>
-            </Link>
+            <SocialIcons />
             <div>
               <Button
                 id="contact"

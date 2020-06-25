@@ -5,6 +5,7 @@ import { Container, Row } from "react-bootstrap"
 import { Footer } from "../components"
 import SEO from "../components/seo"
 import "../Styles/styles.css"
+import "../Styles/aboutStyles.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import TopContent from "../components/content/TopContent"
 const AboutPage = () => (

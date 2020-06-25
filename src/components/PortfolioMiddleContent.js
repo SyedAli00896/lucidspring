@@ -1,53 +1,43 @@
 import React from "react"
-import { Container, Col, Row } from "react-bootstrap"
-import "../Styles/styles.css"
+import { Row, Col } from "react-bootstrap"
+
+import "../Styles/portfolioStyles.css"
+
 export const PortfolioMiddleContent = props => {
   return (
     <Col
       style={{
-        padding: "20px",
+        padding: "15px 30px",
       }}
       lg={6}
       md={6}
       sm={12}
       xs={12}
     >
-      <div
-        id="portfolio_col"
+      <Row
         style={{
           backgroundColor: props.backgroundColor || "blue",
-          display: "flex",
-          flexDirection: "row",
         }}
+        id="portfolio_card"
       >
-        <div
-          style={{
-            flex: 2,
-
-            paddingTop: "30px",
-            paddingLeft: "30px",
-          }}
-        >
+        <Col id="portfolio_card_left" lg={6} md={6} sm={6} xs={6}>
           <h1 id="pfcardtitle">PocketNest</h1>
           <h2 id="pfcarddescription">
             {props.description ||
               "Financial planning mobile apps for millenials"}
           </h2>
-        </div>
-        <div
-          style={{
-            flex: 3,
-            paddingTop: "30px",
-          }}
-        >
+          {/* </div> */}
+        </Col>
+        <Col id="portfolio_card_right" lg={6} md={6} sm={6} xs={6}>
           <img
-            {...props}
+            // {...props}
+            src={props.src}
             className="portfolioImage"
-            height="250"
+            width="100%"
             alt="No File"
           />
-        </div>
-      </div>
+        </Col>
+      </Row>
     </Col>
   )
 }

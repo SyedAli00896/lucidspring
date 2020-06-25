@@ -67,7 +67,7 @@ export const Header = props => {
               </Nav.Link>
               <Nav.Link
                 id={props.homePage ? "contactHome" : "contact"}
-                href="#memes"
+                href="contact"
               >
                 Contact
               </Nav.Link>

@@ -3,8 +3,6 @@ import { Container, Row } from "react-bootstrap"
 
 import { Footer, PortfolioMiddleContent } from "../components"
 import SEO from "../components/seo"
-import "../Styles/styles.css"
-import "bootstrap/dist/css/bootstrap.min.css"
 
 import TopContent from "../components/content/TopContent"
 const PortfolioPage = () => (
