@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return (
       <>
-        <svg
+        {/* <svg
           style={{
             height: 200,
             position: "absolute",
@@ -20,7 +20,7 @@ class Header extends Component {
             fill-opacity="1"
             d="M0,192L120,202.7C240,213,480,235,720,224C960,213,1200,171,1320,149.3L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
           ></path>
-        </svg>
+        </svg> */}
         <Navbar
           style={{
             backgroundColor: this.props.homePage

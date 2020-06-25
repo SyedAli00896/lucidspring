@@ -1,15 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Container, Col, Row, Nav } from "react-bootstrap"
 import Header from "../components/header"
-import Jumbotron from "../components/Jumbotron"
+
 import { Services } from "../components/Services"
+import { TechnologyStack } from "../components/TechnologyStack"
+
 import { CenterStrip } from "../components/CenterStrip"
 import SEO from "../components/seo"
 import "../Styles/styles.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { ORANGE_COLOUR } from "../Constants"
-import TopContent from "../components/content/TopContent"
+
 const IndexPage = () => (
   <div>
     <Header homePage />
@@ -42,6 +43,42 @@ const IndexPage = () => (
     </Container>
     <CenterStrip />
 
+    <h4 id="cebterTitle">Our Services</h4>
+
+    <Container>
+      <Row>
+        <Services
+          backgroundColor="#fcdbe2"
+          src={require("../images/mobile_apps.png")}
+          title="Mobile Apps"
+          description="The simplest and most effective designs and architecture to expand your business"
+        />
+        <Services
+          backgroundColor="#e2f9d8"
+          src={require("../images/web_design_dev.png")}
+          title="Web Apps"
+          description="Functional, effective and practical web apps and websites that communicate your products and services"
+        />
+        <Services
+          backgroundColor="#e7d4ff"
+          src={require("../images/software_red.png")}
+          title="Software Redevelopment"
+          description="Enhance, refine and redesign for effective business use"
+        />
+      </Row>
+    </Container>
+    <Container>
+      <h4 id="cebterTitle" style={{ fontSize: "26px" }}>
+        Shrine Development is proud to be one of the
+        <span style={{ fontSize: "30px", fontWeight: "700" }}>
+          {` top ranked App Developers in Detroit, Michigan `}
+        </span>
+        according to Clutch.co’s rankings.
+      </h4>
+    </Container>
+
+    <h4 id="cebterTitle">Technology Stack</h4>
+    <TechnologyStack />
     <div style={{ padding: 30 }}></div>
     <SEO title="Home" />
   </div>
