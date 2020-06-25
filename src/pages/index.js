@@ -1,15 +1,18 @@
 import React from "react"
 import { Container, Col, Row, Nav } from "react-bootstrap"
-import Header from "../components/header"
 
-import { Services } from "../components/Services"
-import { TechnologyStack } from "../components/TechnologyStack"
+import {
+  Header,
+  TechnologyStack,
+  CenterStrip,
+  Corousel,
+  Footer,
+  Services,
+} from "../components"
 
-import { CenterStrip } from "../components/CenterStrip"
 import SEO from "../components/seo"
 import "../Styles/styles.css"
 import "bootstrap/dist/css/bootstrap.min.css"
-import { ORANGE_COLOUR } from "../Constants"
 
 const IndexPage = () => (
   <div>
@@ -76,10 +79,11 @@ const IndexPage = () => (
         according to Clutch.co’s rankings.
       </h4>
     </Container>
-
+    <Corousel />
     <h4 id="cebterTitle">Technology Stack</h4>
     <TechnologyStack />
     <div style={{ padding: 30 }}></div>
+    <Footer />
     <SEO title="Home" />
   </div>
 )

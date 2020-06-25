@@ -1,10 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Container, Row } from "react-bootstrap"
-import Footer from "../components/Footer"
-import Jumbotron from "../components/Jumbotron"
-import { PortfolioMiddleContent } from "../components/PortfolioMiddleContent"
 
+import { Footer, PortfolioMiddleContent } from "../components"
 import SEO from "../components/seo"
 import "../Styles/styles.css"
 import "bootstrap/dist/css/bootstrap.min.css"
