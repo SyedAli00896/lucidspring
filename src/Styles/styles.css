@@ -1,5 +1,35 @@
 /* short-hand syntax: top | right | bottom | left */
+#headingOne {
+  font-size: 55px;
+  font-weight: 600;
+  color: #ff7a00;
+}
+#headingTwo {
+  color: #ff7a00;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 600;
+}
+#textOneLight {
+  color: #54595f;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.625;
+}
 
+#textTwoLight {
+  color: #54595f;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.625;
+}
+
+#textThreeLight {
+  color: #54595f;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.625;
+}
 #anchor {
   color: white;
   padding: 0px 15px;
@@ -45,20 +75,6 @@
   text-align: center;
 }
 
-.servicesContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: #ffe7d1;
-  padding: 20px 0px;
-}
-
-#heading {
-  font-size: 55px;
-  font-weight: 600;
-  color: #ff7a00;
-}
 #headingHome {
   color: #000000;
   line-height: 45px;
@@ -69,15 +85,6 @@ p {
   font-size: 24px;
   line-height: 38px;
   font-weight: 400;
-}
-
-.services {
-  margin: 0px 30px;
-  border-radius: 20px 0px;
-}
-
-.serviceImage {
-  margin: 50px 60px;
 }
 
 #pfcardtitle {
@@ -116,12 +123,7 @@ p {
 #newsletterImage {
   justify-content: center;
 }
-#nlTitle {
-  color: #ff7a00;
-  text-align: left;
-  font-size: 36px;
-  font-weight: 600;
-}
+
 #nlDesciption {
   color: #89684b;
   text-align: left;

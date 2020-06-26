@@ -8,7 +8,7 @@ export const Newsletter = props => {
       <Row id="newsletterRow">
         <Col lg={6} md={6} sm={12}>
           <div>
-            <p id="nlTitle">Get our content in your inbox</p>
+            <p id="headingTwo">Get our content in your inbox</p>
             <p id="nlDesciption">
               Receive occasional email updates from Shrine. Don’t worry, we
               don’t like spam either.
