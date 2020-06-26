@@ -18,6 +18,11 @@
   display: flex;
   align-items: center;
 }
+#justifiedAlignment {
+  display: flex;
+  align-items: auto;
+  justify-content: center;
+}
 
 .teamImageContainer {
   margin: auto;

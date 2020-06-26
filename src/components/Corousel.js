@@ -18,37 +18,27 @@ export const Corousel = props => {
           }}
         >
           <Row id="rowItems">
-            <Col lg={6} md={6} sm={6} xs={6}>
-              <Image
-                src={require("../images/plain_sight_tile.png")}
-                className="d-block w-100"
-                style={{
-                  height: "100%",
-                }}
-              />
+            <Col lg={6} md={6} sm={4} xs={4}>
+              <Image src={require("../images/plain_sight_tile.png")} />
             </Col>
-            <Col lg={6} md={6} sm={6} xs={6}>
+            <Col lg={6} md={6} sm={8} xs={8}>
               <div
                 style={{
+                  paddingTop: "10px",
+                  paddingBottom: "10px",
                   paddingRight: "30px",
                   textAlign: "center",
                   fontSize: "30px",
                   color: "white",
                 }}
               >
-                <p>
+                <p id="pfcardtitle">
                   I appreciate their focus on communication. They go beyond
                   being a development company, going into a mentorship role.
                 </p>
               </div>
             </Col>
           </Row>
-          {/* <Carousel.Caption>
-            <h3 style={{ color: "black" }}>First slide label</h3>
-            <p style={{ color: "black" }}>
-              Nulla vitae elit libero, a pharetra augue mollis interdum.
-            </p>
-          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item
           style={{
@@ -59,25 +49,21 @@ export const Corousel = props => {
           }}
         >
           <Row id="rowItems">
-            <Col lg={6} md={6} sm={6} xs={6}>
-              <Image
-                src={require("../images/passagex_tile.png")}
-                className="d-block w-100"
-                style={{
-                  height: "100%",
-                }}
-              />
+            <Col lg={6} md={6} sm={4} xs={4}>
+              <Image src={require("../images/passagex_tile.png")} />
             </Col>
-            <Col lg={6} md={6} sm={6} xs={6}>
+            <Col lg={6} md={6} sm={8} xs={8}>
               <div
                 style={{
+                  paddingTop: "10px",
+                  paddingBottom: "10px",
                   paddingRight: "30px",
                   textAlign: "center",
                   fontSize: "30px",
                   color: "white",
                 }}
               >
-                <p>
+                <p id="pfcardtitle">
                   I appreciate their focus on communication. They go beyond
                   being a development company, going into a mentorship role.
                 </p>
@@ -94,25 +80,24 @@ export const Corousel = props => {
           }}
         >
           <Row id="rowItems">
-            <Col lg={6} md={6} sm={6} xs={6}>
+            <Col lg={6} md={6} sm={4} xs={4}>
               <Image
                 src={require("../images/brightback_tile.png")}
-                className="d-block w-100"
-                style={{
-                  height: "100%",
-                }}
+                className="d-block"
               />
             </Col>
-            <Col lg={6} md={6} sm={6} xs={6}>
+            <Col lg={6} md={6} sm={8} xs={8}>
               <div
                 style={{
+                  paddingTop: "10px",
+                  paddingBottom: "10px",
                   paddingRight: "30px",
                   textAlign: "center",
                   fontSize: "30px",
                   color: "white",
                 }}
               >
-                <p>
+                <p id="pfcardtitle">
                   I appreciate their focus on communication. They go beyond
                   being a development company, going into a mentorship role.
                 </p>
