@@ -11,10 +11,7 @@ html,
 img {
   margin: 0px 0px 20px 5px;
 }
-.col1 {
-  color: #000000;
-  border: 2px solid green;
-}
+
 #sectionName {
   color: #000000;
   font-size: 24px;
