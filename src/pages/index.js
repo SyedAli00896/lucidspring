@@ -1,14 +1,12 @@
 import React from "react"
 import { Container, Col, Row, Nav } from "react-bootstrap"
 
-import {
-  Header,
-  TechnologyStack,
-  CenterStrip,
-  Corousel,
-  Footer,
-  Services,
-} from "../components"
+import { Header } from "../components/Header"
+import { TechnologyStack } from "../components/TechnologyStack"
+import { CenterStrip } from "../components/CenterStrip"
+import { Corousel } from "../components/Corousel"
+import { Footer } from "../components/Footer"
+import { Services } from "../components/Services"
 
 import SEO from "../components/seo"
 import "../Styles/styles.css"

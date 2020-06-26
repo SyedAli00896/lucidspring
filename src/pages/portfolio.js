@@ -1,7 +1,8 @@
 import React from "react"
 import { Container, Row } from "react-bootstrap"
+import { Footer } from "../components/Footer"
+import { PortfolioMiddleContent } from "../components/PortfolioMiddleContent"
 
-import { Footer, PortfolioMiddleContent } from "../components"
 import SEO from "../components/seo"
 
 import TopContent from "../components/content/TopContent"

@@ -1,8 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Container, Row, Col, ListGroup, Image } from "react-bootstrap"
-
-import { Footer, Team } from "../components"
+import { Footer } from "../components/Footer"
+import { Team } from "../components/Team"
 import SEO from "../components/seo"
 import "../Styles/styles.css"
 import "../Styles/aboutStyles.css"

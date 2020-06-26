@@ -59,10 +59,7 @@ export const Header = props => {
               >
                 About
               </Nav.Link>
-              <Nav.Link
-                id={props.homePage ? "anchorHome" : "anchor"}
-                href="insights"
-              >
+              <Nav.Link id={props.homePage ? "anchorHome" : "anchor"} href="/">
                 Insights
               </Nav.Link>
               <Nav.Link

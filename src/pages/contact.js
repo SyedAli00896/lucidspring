@@ -1,8 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 import { Container, Row, Col, Form } from "react-bootstrap"
+import { Footer } from "../components/Footer"
+import { SocialIcons } from "../components/SocialIcons"
 
-import { Footer, SocialIcons } from "../components"
 import SEO from "../components/seo"
 import "../Styles/contactStyles.css"
 import "bootstrap/dist/css/bootstrap.min.css"
