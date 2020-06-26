@@ -1,4 +1,4 @@
-#aboutRadio {
+#aboutRadioActive {
   background-color: #ff7a00;
   color: white;
   border-radius: 30px 0px;
@@ -10,6 +10,18 @@
 #aboutRadio:hover {
   background-color: #ffe7d1;
   color: #ff7a00;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+#aboutRadio {
+  background-color: #d3d2d2;
+  color: #ff7a00;
+  border-radius: 30px 0px;
+  text-align: center;
+  padding: 25px 0px;
+  margin: 10px 0px;
+  list-style: none;
 }
 #divStyle {
   padding: 0px 30px;

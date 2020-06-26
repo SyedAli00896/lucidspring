@@ -29,12 +29,18 @@ class AboutPage extends React.Component {
         <Container>
           <Row>
             <Col lg={6} md={6} sm={6} xs={6}>
-              <ListGroup.Item id="aboutRadio" onClick={() => this.toggle(1)}>
+              <ListGroup.Item
+                id={this.state.active === 1 ? "aboutRadioActive" : "aboutRadio"}
+                onClick={() => this.toggle(1)}
+              >
                 Who we are
               </ListGroup.Item>
             </Col>
             <Col lg={6} md={6} sm={6} xs={6}>
-              <ListGroup.Item id="aboutRadio" onClick={() => this.toggle(2)}>
+              <ListGroup.Item
+                id={this.state.active === 2 ? "aboutRadioActive" : "aboutRadio"}
+                onClick={() => this.toggle(2)}
+              >
                 Our Process
               </ListGroup.Item>
             </Col>
