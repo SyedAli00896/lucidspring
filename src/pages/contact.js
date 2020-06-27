@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Container, Row, Col, Form } from "react-bootstrap"
+import { Container, Row, Col, Form, Image } from "react-bootstrap"
 import { Footer } from "../components/Footer"
 import { SocialIcons } from "../components/SocialIcons"
 
@@ -42,11 +42,14 @@ const ContactPage = () => (
             <p>hello@shrinedev.com</p>
           </div>
           <SocialIcons />
-          <img
-            src={require("../images/contact.png")}
-            height="351"
-            alt="Shrine"
-          />
+          <div style={{ width: "100%", margin: "auto" }}>
+            <Image
+              src={require("../images/contact.png")}
+              height="100%"
+              width="100%"
+              alt="Shrine"
+            />
+          </div>
         </Col>
       </Row>
     </Container>

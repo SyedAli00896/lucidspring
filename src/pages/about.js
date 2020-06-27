@@ -62,13 +62,21 @@ class AboutPage extends React.Component {
             <Container>
               <Row id="centeredAlignment">
                 <Col lg={6} md={6} sm={12} xs={12}>
-                  <div id="divStyle">
+                  <div style={{ height: "400px", margin: "auto" }}>
+                    <Image
+                      src={require("../images/contact.png")}
+                      height="100%"
+                      width="100%"
+                      alt="Shrine"
+                    />
+                  </div>
+                  {/* <div id="divStyle">
                     <img
                       src={require("../images/contact.png")}
                       height="351"
                       alt="Shrine"
                     />
-                  </div>
+                  </div> */}
                 </Col>
                 <Col lg={6} md={6} sm={12} xs={12}>
                   <div id="divStyle">
@@ -154,13 +162,21 @@ class AboutPage extends React.Component {
                   </div>
                 </Col>
                 <Col lg={6} md={6} sm={12} xs={12}>
-                  <div id="divStyle">
+                  <div style={{ height: "400px", margin: "auto" }}>
+                    <Image
+                      src={require("../images/about_careers.png")}
+                      height="100%"
+                      width="100%"
+                      alt="Shrine"
+                    />
+                  </div>
+                  {/* <div id="divStyle">
                     <img
                       src={require("../images/about_careers.png")}
                       height="351"
                       alt="Shrine"
                     />
-                  </div>
+                  </div> */}
                 </Col>
               </Row>
             </Container>
@@ -186,11 +202,19 @@ class AboutPage extends React.Component {
                   transparency and accountability – if it doesn’t serve the
                   client, we won’t do it.
                 </h2>
-                <Col lg="4" style={{ margin: "auto", height: "100%" }}>
-                  <Image
+                <Col lg="6" style={{ margin: "auto" }}>
+                  <div style={{ margin: "auto", width: "100%" }}>
+                    <Image
+                      src={require("../images/ourprocess.png")}
+                      height="100%"
+                      width="100%"
+                      alt="Shrine"
+                    />
+                  </div>
+                  {/* <Image
                     src={require("../images/ourprocess.png")}
                     className="d-block "
-                  />
+                  /> */}
                 </Col>
 
                 <h1 id="headingOne">Shrine philosophy</h1>
