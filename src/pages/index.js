@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Col, Row, Nav } from "react-bootstrap"
+import { Container, Col, Row, Nav, Image } from "react-bootstrap"
 
 import { Header } from "../components/Header"
 import { TechnologyStack } from "../components/TechnologyStack"
@@ -16,9 +16,9 @@ const IndexPage = () => (
   <div>
     <Header homePage />
     <Container>
-      <Row id="rowItemsHome">
+      <Row id="rowItems">
         <Col id="colItemsHome" lg={6} md={6} sm={12} xs={12}>
-          <h1 id="headingHome">
+          <h1 id="headingBlack">
             We help startups & businesses
             <br />
             <span
@@ -29,16 +29,21 @@ const IndexPage = () => (
             <br />
             by building world-class apps.
           </h1>
-          <Nav.Link id="contactHome" href="/">
-            Schedule a call
-          </Nav.Link>
+          <div id="callButton">
+            <Nav.Link id="contactHome" href="/">
+              Schedule a call
+            </Nav.Link>
+          </div>
         </Col>
-        <Col style={{ textAlign: "center" }} lg={6} md={6} sm={12} xs={12}>
-          <img
-            src={require("../images/jump_joy.png")}
-            height="351"
-            alt="Shrine"
-          />
+        <Col lg={6} md={6} sm={12} xs={12}>
+          <div style={{ height: "400px", margin: "auto" }}>
+            <Image
+              src={require("../images/jump_joy.png")}
+              height="100%"
+              width="100%"
+              alt="Shrine"
+            />
+          </div>
         </Col>
       </Row>
     </Container>

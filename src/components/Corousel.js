@@ -19,7 +19,16 @@ export const Corousel = props => {
         >
           <Row id="rowItems">
             <Col lg={6} md={6} sm={4} xs={4}>
-              <Image src={require("../images/plain_sight_tile.png")} />
+              <div
+                style={{ maxWidth: `300px`, height: "100%", margin: "auto" }}
+              >
+                <Image
+                  src={require("../images/plain_sight_tile.png")}
+                  width="100%"
+                  height="100%"
+                  alt="No File"
+                />
+              </div>
             </Col>
             <Col lg={6} md={6} sm={8} xs={8}>
               <div
@@ -50,7 +59,16 @@ export const Corousel = props => {
         >
           <Row id="rowItems">
             <Col lg={6} md={6} sm={4} xs={4}>
-              <Image src={require("../images/passagex_tile.png")} />
+              <div
+                style={{ maxWidth: `300px`, height: "100%", margin: "auto" }}
+              >
+                <Image
+                  src={require("../images/passagex_tile.png")}
+                  width="100%"
+                  height="100%"
+                  alt="No File"
+                />
+              </div>
             </Col>
             <Col lg={6} md={6} sm={8} xs={8}>
               <div
@@ -81,10 +99,16 @@ export const Corousel = props => {
         >
           <Row id="rowItems">
             <Col lg={6} md={6} sm={4} xs={4}>
-              <Image
-                src={require("../images/brightback_tile.png")}
-                className="d-block"
-              />
+              <div
+                style={{ maxWidth: `300px`, height: "100%", margin: "auto" }}
+              >
+                <Image
+                  src={require("../images/brightback_tile.png")}
+                  width="100%"
+                  height="100%"
+                  alt="No File"
+                />
+              </div>
             </Col>
             <Col lg={6} md={6} sm={8} xs={8}>
               <div
