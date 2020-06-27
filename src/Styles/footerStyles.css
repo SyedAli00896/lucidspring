@@ -1,15 +1,9 @@
 /* REMOVE THIS, USE YOUR OWN  */
-html,
 
 /* STYLES SPECIFIC TO FOOTER  */
-.footer {
-  width: 100%;
-  position: relative;
-  height: auto;
-  background-color: #ffffff;
-}
-img {
-  margin: 0px 0px 20px 5px;
+#footerColumn {
+  display: flex;
+  flex-direction: column;
 }
 
 #sectionName {
@@ -20,14 +14,13 @@ img {
 }
 
 #routes {
-  display: block;
   color: #ff7a00;
   font-size: 19px;
   font-weight: 400;
-  /* line-height: 32px; */
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-bottom: 0;
+  line-height: 1.5;
+  /* padding-top: 5px;
+  padding-bottom: 5px; */
+  /* margin-bottom: 0; */
   /* padding: 5px 0px 5px 0px; */
   cursor: pointer;
   transition: 0.2s;
